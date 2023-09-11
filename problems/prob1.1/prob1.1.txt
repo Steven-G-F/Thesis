@@ -1,0 +1,274 @@
+We will begin with a simple math induction example. 
+Here is the problem, where we must prove the statement true for all positive integers n.
+What is the first step in any math induction problem?
+$1
+Solve the base case
+Solve for both sides
+Try a few test cases to prove its validity
+NEXT
+$2
+$3
+This is the first step in any math induction problem. 
+This is where we build up the "domino effect."
+NEXT
+$5
+The left side of the equation has no definite length.
+This is because we are proving this case for all positive integers n.
+Therefore, we cannot simply solve the equation for both sides.
+Let's try that again.
+What is the first step in any math induction problem?
+$7
+NEXT
+$5
+This is a rational way to think, and is a good way to test that the statement is true.
+However, testing certain cases is best for proving a statement incorrect by contradiction.
+That will come at a later time, but for now we need to prove this for all positive integers.
+Let's give that another go.
+What is the first step in any math induction problem?
+$7
+NEXT
+$2
+Now then, for this problem, what will the base case be?
+$1
+n=1
+n=0
+Any positive integer
+NEXT
+$2
+$3
+We are proving this for all positive integers.
+The first positive integer is 1, thus it is our base case.
+NEXT
+$6
+You have the right idea. However, 0 is not a positive integer.
+There will be cases where n=0 will be the bases case, so it is important to always read the parameters.
+Try thinking in terms of the first positive integer.
+Let's give this another go.
+For this problem, what will the base case be?
+$7
+NEXT
+$5
+We are looking for a specific base case. 
+This can also be seen as the first case, or the first instance of a case.
+Using any positive integer may not include the scope of all positive integers.
+Let's try again.
+For this problem, what will the base case be?
+$7
+NEXT
+$2
+Which side of the equation does this part prove?
+$1
+LHS (left hand side)
+RHS (right-hand side)
+NEXT
+$2
+$3
+NEXT
+$5
+Rememeber, we are using the above equation.
+Which side does this represent?
+$7
+NEXT
+This is what it is when plugged into the left-hand side of the equation.
+Now how about this simplification?
+$1
+RHS (right-hand side)
+LHS (left-hand side)
+NEXT
+$2
+$3
+NEXT
+$5
+Rememeber, we are using the above equation.
+Which side does this represent?
+$7
+NEXT
+With these two statements, what can we say the base case is proven as?
+$1
+true
+false
+NEXT
+$2
+$3
+NEXT
+$5
+In math induction, the aim is to prove a statement true within a certain scope. 
+And in this case, we have shown both sides are equal.
+Therefore, we have proven the base case...
+$7
+NEXT
+As shown, both sides are equal, thus proving the base case.
+Now that the base case is solved, what is the next step?
+$1
+Assume n=k, where k is a positive integer
+Assume n=2, testing the next case
+Assume n=10, to test a large number
+NEXT
+$2
+$3
+We assume the statement is true for n=k, where k is a positive integer.
+From here we can continue the proof in terms of k.
+NEXT
+$5
+We already proved the base case was correct. 
+Now we need to prove it for all other positive integers.
+$7
+NEXT
+$5
+We already proved the base case was correct. 
+Now we need to prove it for all other positive integers.
+$7
+NEXT
+With this assumption in mind, what do we now need to prove?
+$1
+n=k+1
+n=k-1
+n=k
+NEXT
+$2
+$4
+We want to prove this for n=k+1 since we already proved this case for n=1.
+Therefore, if we prove this statement, then we prove that it is true for all integers after 1.
+That is, n=1+1, n=2+1, and so on until reaching n=k+1, whatever positive integer k may be.
+NEXT
+$6 
+This is the right idea, but is actually the opposite direction we want to go.
+We are trying to prove this for all positive integers, so subtracting 1 would be contradictory to our end goal.
+With that additional information, what should we aim to prove?
+$7
+NEXT
+$5
+This is what we already assumed, so solving for this case does not move the proof forward.
+This is known as an inductive hypothesis, as shown.
+With that additional information, what should we aim to prove?
+$7
+NEXT
+$2
+Now, what will the left-hand side of the equestion look like given what we are trying to prove?
+$1
+1+2+3+...+k+(k+1)
+1+2+3+...+k
+1+2+3+k+k+1
+NEXT
+$2
+$3
+NEXT
+$5
+This is the statement we already assumed to be true. 
+We need to prove it one step further now.
+Try filling in the blank once more.
+$7
+NEXT
+$5
+For now, we don't have a definite length when it comes to the LHS.
+We will aim to rememedy this, but for now, use what we are trying to prove.
+Try filling in the blank with this given information.
+$7
+NEXT
+Our goal, now, is to prove both sides are equal. 
+We will go over the simplification steps together, but I do recommend trying it out yourself.
+$2
+Using our assumption. Please fill in the blank:
+$1
+k(k+1)/2
+(k+1)/2
+k(k+1)+k
+2*(k+1)
+NEXT
+$2
+$3
+We are using the inductive hypothesis, so it is, in a way, restating what we are trying to prove.
+From here we don't have to worry about the series with an undefined length.
+We can see this substitution using with the identical parts indicated in red.
+NEXT
+$6
+Rememeber, we are using the inductive hypothesis. 
+This is information that has already been given to us.
+Please try that again.
+$7
+NEXT
+$5
+Rememeber, we are using the inductive hypothesis. 
+This is information that has already been given to us.
+Give it another go!
+$7
+NEXT
+$6
+Rememeber, we are using the inductive hypothesis. 
+This is information that has already been given to us.
+Try once more.
+$7
+NEXT
+$2
+For the next step, what should fill in the blank?
+$1
+2(k+1)/2
+(k+1)/2
+2(k+1)/4
+NEXT
+$4
+$2
+Using lowest common denominator, we can simplify the fraction.
+NEXT
+$6
+We need to use the lowest common denominator in order to simplify this. 
+We need an equivalent statement.
+Try filling in the blank again.
+$7
+NEXT
+$6
+You are correct in that we need to multiply the numerator by 2.
+However, 4 is not the correct denominator.
+Try once more.
+$7
+NEXT
+Alright, we are almost finished with the simplification!
+We can now combine the numerators into one fraction since they have the same denominator.
+Using factoring, what will our combined numerator be?
+$1
+(k+2)(k+1)
+(2k+1)(2k+2)
+(k+2)(2k+1)
+NEXT
+$3
+$2
+We factor using the rule a(c+d)+b(c+d)=(a+b)(c+d) to get our solution.
+NEXT
+$5
+This may look a bit complicated, but it uses an algebraic factoring rule that can be completed in one step.
+There is no need to distribute the 2, which is what may have caused this confusion.
+Try that again, you got this!
+$7
+NEXT
+This may look a bit complicated, but it uses an algebraic factoring rule that can be completed in one step.
+There is no need to distribute the 2, which is what may have caused this confusion.
+Try that again, you got this!
+$7
+NEXT
+And that is it for simplification! 
+Looking at both sides of the equation, we can see they are equal.
+Thus, we have proven the statement is true for n=k+1 is true for n=k+1.
+$2
+Our last step is our conclusion.
+What two pieces of evidence do we have that can prove this statement true?
+$1
+Base case and satisfaction of inductive hypothesis.
+Base case and substitution of k+1
+Satisfaction of inductive hypothesis and substitution.
+NEXT
+$2
+$4
+With this, we have proven this statement true for all positive integers.
+NEXT
+$5
+To prove any math induction problem, we need to satisfy the domino effect.
+What pieces will allow us to put that into place?
+$7
+NEXT
+$5
+To prove any math induction problem, we need to satisfy the domino effect.
+What pieces will allow us to put that into place?
+$7
+NEXT
+And that is it! I hope you found this guided session helpful.
+$8

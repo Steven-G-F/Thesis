@@ -1,0 +1,181 @@
+Let's try a slightly different math induction problem. 
+While this is an inequality now, the same steps will apply to this problem.
+$2
+As always, the first step is to prove the base case is true. 
+$2
+What will the base case be for this problem??
+$1
+n=1
+n=0
+n=-1
+NEXT
+$2
+$3
+We are proving this for all positive integers.
+The first positive integer is 1, thus it is our base case.
+While n=0 and n=1 are often the base case, don't forget that the base case depends on the problem given.
+NEXT
+$6
+You have the right idea. However, 0 is not a positive integer.
+There will be cases where n=0 will be the bases case, so it is important to always read the parameters.
+Try thinking in terms of the first positive integer.
+Let's give this another go.
+For this problem, what will the base case be?
+$7
+NEXT
+$5
+Close, but -1 is not in our domain, which in this case, is all positive integers.
+Let's try that again.
+$7
+NEXT
+$2
+In the next step, let's solve for both sides. 
+What does the inequality look like when testing the base case?
+$1
+2^(1)>1
+2^(n)>n
+2^(k+1)>k+1
+NEXT
+$2
+$3
+NEXT
+$5
+This is restating the original equation.
+We are trying to prove the base case using the number we found.
+Try filling in the blank again.
+$7
+NEXT
+$5
+You are thinking ahead, which is good.
+However, before we move onto the inductive step, we must first prove the base case.
+Without that, there will be no domino effect. 
+Try that again.
+$7
+NEXT
+As we can see, 2>1, so the base case is proven by math induction.
+This proves the base case.
+Now that the base case is solved, we move onto the assumption step.
+What should we assume?
+$1
+Assume n=k, where k is a positive integer
+Assume n=k+1, where k is a positive integer
+Assume n=k-1, where k is a positive integer
+NEXT
+$2
+$3
+We assume the statement is true for n=k, where k is a positive integer.
+From here we can continue the proof in terms of k.
+NEXT
+$6
+We will get to this step eventually, but you are thinking ahead.
+We need to first establish k as a variable for the proof.
+Try again.
+$7
+NEXT
+$5
+We already proved the base case was correct. 
+Now we need to prove this for all other positive integers.
+Try again.
+$7
+NEXT
+Now, with this assumption in mind, what do we now need to prove?
+$1
+2^(k+1)>k+1
+2^(k)>k+1
+2^(k+1)=k+1
+NEXT
+$2
+$4
+We fill in k+1 to prove the next case from "some integer" k
+NEXT
+$6 
+Remember, we are proving the next case for both sides.
+Give it another go!
+$7
+NEXT
+$5
+Don't forget, this is an inequality.
+Try that again.
+$7
+NEXT
+Unlike equations, inequalities are solved a bit differently.
+We need to rewrite the left-hand side to prove the inductive hypothesis.
+$2
+How can we rewrite this accordingly?
+$1
+2*2^k
+4^k
+2^k+2
+NEXT
+$2
+$3
+NEXT
+$5
+We can't combine terms in this way.
+However, using rules of exponents, we can split it up.
+We want to use the rule a^(b+c)=a^b*a^c
+Give that another go.
+$7
+NEXT
+$5
+While the exponent has a sum, that does not directly transfer since we are working with exponents.
+We want to use the rule a^(b+c)=a^b*a^c
+Try filling in the blank with this given information.
+$7
+NEXT
+Now we can use our induction step with thee right-hand side.
+How can we rewrite it?
+Using our assumption. Please fill in the blank:
+$1
+2k
+2+2k
+2
+NEXT
+$2
+$3
+We are using the inductive hypothesis, so it is, in a way, restating what we are trying to prove.
+Since we assume 2^k>k, then 2(2^k)>2(k) is also true.
+NEXT
+$6
+We are using our assumption in order to prove this case correct.
+That is, 2^k>k.
+Please try that again.
+$7
+NEXT
+$5
+Rememeber, we are using the inductive hypothesis. 
+That is, 2^k>k.
+Give it another go!
+$7
+NEXT
+Now, since we know k represents all positive integers, how can we prove the inductive step true?
+$1
+Combine all three terms into one inequality
+Divide both sides by 2
+Now prove the right-hand side
+NEXT
+$4
+$2
+NEXT
+$5
+That would get us back to the first step.
+Try using the fact we are working with inequalities to our advantage.
+NEXT
+$5
+Unlike equations, we aren't trying to make both sides equal.
+Try using the fact we are working with inequalities to our advantage.
+$7
+NEXT
+We have all the components necessary to state that this case is true for all positive integers.
+As you can see, the inequality is true.
+Thus, we have proven 2^(k+1)>k+1
+Unlike previous examples, the simplification was less algebraic and utilized properties of inequalities.
+This may seem complicated, but practicing a few examples will help you understand them more easily.
+Our last step is our conclusion.
+After a few practice examples, we know the two components we need 
+They are the base case and satisfaction of inductive hypothesis.
+And that is it! I hope you found this guided session helpful.
+$8
+
+
+

@@ -1,0 +1,251 @@
+We will begin with this math induction example. 
+Here is the problem, where we must prove the statement true for all positive integers n.
+$2
+As we know, the first step is to prove the base case. 
+$2
+What will the base case be for this problem??
+$1
+n=1
+n=0
+n=-1
+NEXT
+$2
+$3
+We are proving this for all positive integers.
+The first positive integer is 1, thus it is our base case.
+NEXT
+$6
+You have the right idea. However, 0 is not a positive integer.
+There will be cases where n=0 will be the bases case, so it is important to always read the parameters.
+Try thinking in terms of the first positive integer.
+Let's give this another go.
+For this problem, what will the base case be?
+$7
+NEXT
+$5
+Close, but -1 is not in our domain, which in this case, is all positive integers.
+Let's try that again.
+$7
+NEXT
+$2
+In the next step, let's solve for both sides. 
+What do we get for the LHS of the equation?
+$1
+2(1)-1=1
+2-1=1
+2(2)-1=3
+NEXT
+$2
+$3
+NEXT
+$5
+Rememeber, we are using the above equation.
+Try filling in the blank again.
+$7
+NEXT
+$5
+Rememeber, we are using the above equation.
+Try filling in the blank again.
+$7
+NEXT
+This is what it is when plugged into the left-hand side of the equation.
+Now how about the other side?
+Fill in the blank.
+$1
+(1)^2=1
+2(1)-1=1
+1=1
+NEXT
+$2
+$3
+NEXT
+$6
+This statement is not clearly from the above equation.
+Tr to utilize the given equation to solve this problem.
+Give it another go!
+$7
+NEXT
+$5
+This is the previous answer, the left-hand side
+We are trying to now prove the right-hand side.
+Give it another go!
+$7
+NEXT
+After solving LHS and RHS, we can see both sides are equal (1=1)
+This proves the base case.
+Now that the base case is solved, we move onto the assumption step.
+What should we assume?
+$1
+Assume n=k, where k is a positive integer
+Assume n=k+1, where k is a positive integer
+Assume n=k-1, where k is a positive integer
+NEXT
+$2
+$3
+We assume the statement is true for n=k, where k is a positive integer.
+From here we can continue the proof in terms of k.
+NEXT
+$6
+We will get to this step eventually, but you are thinking ahead.
+We need to first establish k as a variable for the proof.
+Try again.
+$7
+NEXT
+$5
+We already proved the base case was correct. 
+Now we need to prove this for all other positive integers.
+Try again.
+$7
+NEXT
+Now, with this assumption in mind, what do we now need to prove?
+$1
+n=k+1
+n=k-1
+n=k
+NEXT
+$2
+$4
+We want to prove this for n=k+1 since we already proved this case for n=1.
+Therefore, if we prove this statement, then we prove that it is true for all integers after 1.
+That is, n=1+1, n=2+1, and so on until reaching n=k+1, whatever positive integer k may be.
+NEXT
+$6 
+This is the right idea, but is actually the opposite direction we want to go.
+We are trying to prove this for all positive integers, so subtracting 1 would be contradictory to our end goal.
+With that additional information, what should we aim to prove?
+$7
+NEXT
+$5
+This is what we already assumed, so solving for this case does not move the proof forward.
+This is known as an inductive hypothesis, as shown.
+With that additional information, what should we aim to prove?
+$7
+NEXT
+$2
+Now, what will the left-hand side of the equestion look like given what we are trying to prove?
+$1
+1+3+5+...(2k-1)+[2(k+1)-1]
+1+3+5+...+k+(k+1)+(k+2)
+1+2+3+...+k
+NEXT
+$2
+$3
+NEXT
+$5
+Yes, we are planning to use k+1
+However, we want to us the original equation in the proof to prove this.
+Try filling in the blank once more.
+$7
+NEXT
+$5
+This does not use the equation we are aiming to prove.
+This may be confusing as this was the correct solution in one of the previous problems.
+However, try to use the given equation, as a quick substitution will solve the problem.
+Try filling in the blank with this given information.
+$7
+NEXT
+Our goal, now, is to prove both sides are equal. 
+We will go over the simplification steps together, but I do recommend trying it out yourself.
+$2
+Using our assumption. Please fill in the blank:
+$1
+k^2
+(k+1)^2
+2k-1
+k
+NEXT
+$2
+$3
+We are using the inductive hypothesis, so it is, in a way, restating what we are trying to prove.
+From here we don't have to worry about the series with an undefined length.
+We can see this substitution using with the identical parts indicated in red.
+NEXT
+$6
+We are using our assumption in order to prove this case correct.
+Please try that again.
+$7
+NEXT
+$5
+Rememeber, we are using the inductive hypothesis. 
+This is information that has already been given to us.
+Give it another go!
+$7
+NEXT
+$5
+We want to use the above equation, the inductive hypothesis.
+Try once more.
+$7
+NEXT
+$2
+After simplifying the left hand side, what should we get?
+$1
+2k+1
+2k+2
+2k
+NEXT
+$4
+$2
+We use the distributive property to simplify this equation.
+NEXT
+$6
+Try using the distributive property: a(b+c)=ab+bc
+Don't forget to distribut both numbers before subtracting the 1.
+Try filling in the blank again.
+$7
+NEXT
+$6
+Try using the distributive property: a(b+c)=ab+bc
+Don't forget to distribut both numbers before subtracting the 1.
+Try once more.
+$7
+NEXT
+Alright, we are almost finished with the simplification!
+$2
+Using factoring, what will our final equation look like?
+$1
+(k+1)^2=(k+1)^2
+k^2+1=k^2+1
+k^2=k^2
+NEXT
+$3
+$2
+The left-hand side is a perfect square, thus we can use that to easily simplify the equation.
+NEXT
+$5
+This may look a bit complicated, but it uses an algebraic factoring rule that can be completed in one step.
+We can complete the square on the left-hand side.
+Try that again, you got this!
+$7
+NEXT
+This may look a bit complicated, but it uses an algebraic factoring rule that can be completed in one step.
+We can complete the square on the left-hand side.
+Try that again, you got this!
+$7
+NEXT
+And that is it for simplification! 
+Looking at both sides of the equation, we can see they are equal.
+Thus, we have proven the statement is true for n=k+1 is true for n=k+1.
+$2
+Our last step is our conclusion.
+What two pieces of evidence do we have that can prove this statement true?
+$1
+Base case and satisfaction of inductive hypothesis.
+Base case and substitution of k+1
+Satisfaction of inductive hypothesis and substitution.
+NEXT
+$2
+$4
+With this, we have proven this statement true for all positive integers.
+NEXT
+$5
+To prove any math induction problem, we need to satisfy the domino effect.
+What pieces will allow us to put that into place?
+$7
+NEXT
+$5
+To prove any math induction problem, we need to satisfy the domino effect.
+What pieces will allow us to put that into place?
+$7
+NEXT
+And that is it! I hope you found this guided session helpful.
+$8
